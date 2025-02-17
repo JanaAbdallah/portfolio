@@ -2,8 +2,7 @@
 Welcome to my portfolio repository! This is a showcase of my skills, projects, and journey as a Software Engineering student. The portfolio is built using HTML, CSS, and JavaScript, with a clean and responsive design.
 
 ## Live Demo
-You can view the live portfolio here:
-👉 Live Portfolio :
+You can view the live portfolio here:  https://janaabdallah.github.io/portfolio/
 
 ## Features
 Responsive Design: Works seamlessly on all devices (desktop, tablet, mobile).
