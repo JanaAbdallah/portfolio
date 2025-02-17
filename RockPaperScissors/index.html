@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <p class="title">Rock Paper Scissors</p>
+
+    <button class="b1" onclick="PlayGame('Rock')">
+      <img src="images.png" class="moveicon" />
+    </button>
+    <button class="b2" onclick="PlayGame('Paper')">
+      <img src="paperimage.png" class="moveicon" />
+    </button>
+    <button class="b3" onclick="PlayGame('Scissor')">
+      <img src="scissors.png" class="moveicon" />
+    </button>
+
+    <div>
+      <button
+        class="b4"
+        onclick="PlayGame('Reset Score'); localStorage.removeItem('Score');"
+      >
+        Reset Score
+      </button>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

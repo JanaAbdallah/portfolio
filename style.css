@@ -1,0 +1,352 @@
+@import 'Poppins';
+
+*{
+ font-family:'Poppins',sans-serif;
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color:#3a6cf4;
+    text-transform:capitalize;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:#3a6cf4;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.navigation a:hover{
+    color:#601cfc;
+}
+li{
+ 
+    display:inline-block;
+    margin-right: 30px;
+    
+}
+section{
+    padding: 100px 60px;
+
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('img/[keyboard art] Minimal Keyboard 4k Wallpapers (taking requests).jpeg') no-repeat;
+    background-size: cover;
+    background-position:top left ;
+    background-attachment: fixed;
+}   
+.main h2{
+    color:#fff;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.main h2 span{
+  color:#4e9eff;
+  font-size: 1.3em;
+  font-weight: 800;
+  display: inline-block;
+  margin-top: 20px;
+}
+.main-btn{
+     text-decoration: none;
+     color:#fff;
+     background-color:rgb(5, 76, 197);
+     border-radius: 15px;
+     display: inline-block;
+     margin-bottom: 40px;
+     letter-spacing: 1px;
+     padding:1em;
+     padding-left: 30px;
+     font-size: 1.01em;
+     font-weight: 600;
+     width: 180px;
+     transition: 0.7s ease;
+    
+}
+
+.main-btn:hover{
+    background-color: rgb(3, 3, 187);
+    transform: scale(1.05);
+
+}
+.fa-brands{
+    color:#fff;
+    font-size: 1.9em;
+    display:inline-block;
+    padding-right: 20px;
+    transition: 0.4s ease;
+}
+
+.fa-brands:hover{
+    color:purple;
+    transform: scale(1.05);
+}
+
+.title{
+    color:#3a6cf4;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.card{
+    background-color: #fff;
+    width:21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px;
+    transition: 0.68s ease;
+    height:20em;
+}
+.card:hover{
+  transform:scale(1.2);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    color:#3a6cf4;
+    font-size:8em;
+    margin-bottom:20px;
+    font-weight: 900;
+}
+.info{
+    text-align: center;
+   
+}
+.info h3{
+    color:#3a6cf4;
+    font-size:1.2em;
+    margin-bottom:10px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.info p{
+    color:black;
+}
+.swdev{
+    text-decoration: none;
+}
+.projects .content{
+    margin-top:30px;
+}
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height:14em;
+    overflow:hidden;
+    border-radius: 10px;
+    margin:25px;
+    width:24em;
+    border-radius: 15px;
+    transition: 0.7s ease;
+
+}
+.project-card:hover{
+  transform: scale(1.1);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.project-img img{
+    width:100%;
+}
+
+.project-card:hover .project-img{
+   opacity:0.9;
+  }
+
+.projects a{
+    text-decoration: none;
+}
+
+.row-info{
+    padding:1em;
+    display: flex;
+    justify-content:space-between;
+}
+#t {
+    font-weight:900;
+    color:black;
+
+}
+.more-details{
+    font-size:1em;
+    font-weight:800;
+    color:#3a6cf4;
+    padding-left:5em;
+    margin-bottom:0px;
+
+}
+
+.more-details:hover{
+    color:purple;
+}
+
+
+.projects{
+    background-color: rgb(38, 38, 38);
+}
+
+
+.icon-img span{
+   color:#3a6cf4;
+   font-size:1.5em;
+   font-weight: 800;;
+}
+
+.proj-img img{
+    width:400px;
+    border-radius: 30px;
+}
+.Icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevent wrapping into multiple rows */
+    justify-content: flex-start; /* Align icons to the start */
+    align-items:center; /* Center icons vertically */
+    background-color: rgb(38, 38, 38);
+    padding: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent icons from wrapping */
+  }
+  
+  .Icon {
+    transition: 0.7s ease;
+    margin-left:3em;/* Adjust margin as needed */
+    font-size: 2em; /* Adjust icon size */
+    flex-shrink: 0; /* Prevent icons from shrinking */
+  }
+  
+  .Icon:hover {
+    transform: scale(1.3);
+  }
+  
+  /* Custom colors for icons */
+  .fa-cuttlefish { /* C and C++ */
+    color: #004482; /* Blue for C/C++ */
+  }
+  
+  .fa-java { /* Java */
+    color: #007396; /* Java blue */
+  }
+  
+  .fa-js { /* JavaScript */
+    color: yellow;
+  }
+  
+  .fa-html5 { /* HTML */
+    color: #e34c26; /* HTML orange */
+  }
+  
+  .fa-css3-alt { /* CSS */
+    color: #264de4; /* CSS blue */
+  }
+  
+  .fa-react { /* ReactJS */
+    color: #61dafb; /* React blue */
+  }
+  
+  .fa-linux { /* Linux */
+    color: #fcc624; /* Linux yellow */
+  }
+  
+  .fa-git-alt { /* Git */
+    color: #f14e32; /* Git orange */
+  }
+  
+  .fa-database { /* SQL */
+    color: #00758f; /* SQL blue */
+  }
+
+
+  .Div{
+    background-color: rgb(38, 38, 38);
+    height: 10px;
+  }
+
+
+
+  .about-me {
+    background-color: #f0f0f0; /* Light background to match the header */
+    padding: 100px 60px;
+  }
+  
+  .about-me .title {
+    color: #3a6cf4; /* Matching the blue theme */
+    font-size: 2.2em;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-me .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-card {
+    background-color: #fff; /* White background for cards */
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15); /* Soft shadow */
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px 0;
+    transition: 0.68s ease;
+  }
+  
+  .about-card:hover {
+    transform: scale(1.02); /* Slight hover effect */
+  }
+  
+  .about-card .info h3 {
+    color: #3a6cf4; /* Blue heading */
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .about-card .info p {
+    color: #333; /* Dark text for readability */
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .about-card .info strong {
+    color: #3a6cf4; /* Highlight keywords in blue */
+  }

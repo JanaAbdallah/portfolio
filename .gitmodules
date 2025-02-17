@@ -1,0 +1,9 @@
+[submodule "RockPaperScissors"]
+	path = RockPaperScissors
+	url = https://github.com/JanaAbdallah/Rock_Paper_Scissors
+[submodule "Todo_list"]
+	path = Todo_list
+	url = https://github.com/JanaAbdallah/Todo-List
+[submodule "YoutubeClone"]
+	path = YoutubeClone
+	url = https://github.com/JanaAbdallah/YoutubeClone
