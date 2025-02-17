@@ -27,7 +27,7 @@ Hosting: GitHub Pages
 
 ## How to Run Locally
 Clone the repository:
-git clone https://github.com/JanaAbdallah/My-Portfolio.git
+git clone https://github.com/JanaAbdallah/portfolio.git
 
 Open the index.html file in your browser.
 
